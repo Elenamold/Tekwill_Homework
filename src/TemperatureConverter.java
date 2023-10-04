@@ -6,8 +6,8 @@ public class TemperatureConverter {
     }
 
     Double toFahrenheit(Double c ) {
-       Double f = c*1.8 + 32  ;
-       return f ;
+     //  Double f = c*1.8 + 32  ;
+       return c*1.8 + 32 ;
     }
 
 }
