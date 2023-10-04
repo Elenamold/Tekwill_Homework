@@ -1,8 +1,7 @@
 public class TemperatureConverter {
-   Double t;
-    Double toCelsius(Double f){
+      Double toCelsius(Double f){
         Double c ;
-        c= (Double) ( 5*(f-32 ) ) /9 ;
+        c =  ( 5*(f-32 ) ) /9 ;
         return c;
     }
 
