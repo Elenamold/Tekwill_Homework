@@ -8,11 +8,11 @@ public class Main {
         TemperatureConverter tConverter = new TemperatureConverter();
         double tCelcius , tFahrenheit ;
         tCelcius = tConverter.toCelsius(65.0) ;
-        tFahrenheit = tConverter.toFahrenheit(20.0) ;
         System.out.printf("\nTemperatura in Celcius is: %0,5.2fC°", tCelcius);
 
-       // System.out.println("\n" + tConverter.toCelsius(65.0).toString());
-
+        tFahrenheit = tConverter.toFahrenheit(20.0) ;
+        System.out.printf("\nTemperatura in Fahrenheit is: %0, 6.2fF°", tFahrenheit );
+        tFahrenheit = tConverter.toFahrenheit(30.0) ;
         System.out.printf("\nTemperatura in Fahrenheit is: %0, 6.2fF°", tFahrenheit );
         }
     }
